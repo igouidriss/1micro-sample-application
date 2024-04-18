@@ -1,0 +1,30 @@
+@if (table7) {
+  <form name="deleteForm" (ngSubmit)="confirmDelete(table7.id!)">
+    <div class="modal-header">
+      <h4 class="modal-title" data-cy="table7DeleteDialogHeading" jhiTranslate="entity.delete.title">Confirm delete operation</h4>
+
+      <span class="btn btn-close" data-dismiss="modal" aria-hidden="true" (click)="cancel()"></span>
+    </div>
+
+    <div class="modal-body">
+      <jhi-alert-error></jhi-alert-error>
+      <p
+        id="jhi-delete-table7-heading"
+        jhiTranslate="App.1MicroSampleApplicationTable7.delete.question"
+        [translateValues]="{ id: table7.id }"
+      >
+        Are you sure you want to delete Table 7 {{ table7.id }}?
+      </p>
+    </div>
+
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal" (click)="cancel()">
+        <fa-icon icon="ban"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+      </button>
+
+      <button id="jhi-confirm-delete-table7" data-cy="entityConfirmDeleteButton" type="submit" class="btn btn-danger">
+        <fa-icon icon="times"></fa-icon>&nbsp;<span jhiTranslate="entity.action.delete">Delete</span>
+      </button>
+    </div>
+  </form>
+}

@@ -7,7 +7,17 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
-        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)",
+        "1MicroSampleApplicationTable10": "Table 10",
+        "1MicroSampleApplicationTable9": "Table 9",
+        "1MicroSampleApplicationTable8": "Table 8",
+        "1MicroSampleApplicationTable7": "Table 7",
+        "1MicroSampleApplicationTable6": "Table 6",
+        "1MicroSampleApplicationTable5": "Table 5",
+        "1MicroSampleApplicationTable4": "Table 4",
+        "1MicroSampleApplicationTable3": "Table 3",
+        "1MicroSampleApplicationTable2": "Table 2",
+        "1MicroSampleApplicationTable1": "Table 1"
       },
       "account": {
         "main": "Account",
